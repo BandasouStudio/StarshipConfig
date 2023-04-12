@@ -1,0 +1,51 @@
+format = """
+$fill\
+[$all](italic)\
+$username\
+$sudo\
+$hostname\
+$directory
+$time\
+$status\
+$character\
+"""
+
+right_format = """\
+"""
+
+[fill]
+disabled = false
+symbol = " "
+
+[cmd_duration]
+min_time = 1
+format = "took [$duration]($style) "
+
+[java]
+style = "yellow"
+
+[conda]
+format = "[ $environment]($style) "
+ignore_base = false
+
+[hostname]
+format = "[@ ](fg:blue bg:white)[$hostname ](fg:black bg:white)"
+
+[sudo]
+format = "[ ](bold dimmed fg:yellow bg:white)"
+disabled = false
+
+[directory]
+truncation_length = 3
+fish_style_pwd_dir_length = 3
+read_only = " "
+truncate_to_repo = false
+format = "[ ](fg:white bg:blue)[$path ](fg:bright-white bg:blue)[$read_only](fg:bright-yellow bg:blue)[](fg:blue)"
+
+[time]
+disabled = false
+format = "[ $time ](fg:bright-white bg:purple)"
+
+[character]
+success_symbol = "[](fg:green)"
+error_symbol = "[ ](bg:red)[](fg:red)"

@@ -1,0 +1,6 @@
+symbol = "[](fg:purple bg:red)[  $status](fg:bright-white bg:red)"
+not_executable_symbol = "[](fg:purple bg:red)[  $status](fg:bright-white bg:red)"
+not_found_symbol = "[](fg:purple bg:red)[  $status](fg:bright-white bg:red)"
+sigint_symbol = "[](fg:purple bg:red)[  $status](fg:bright-white bg:red)"
+signal_symbol = "[](fg:purple bg:red)[  $status](fg:bright-white bg:red)"
+format = "$symbol"

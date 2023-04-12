@@ -1,0 +1,4 @@
+[status]
+disabled = false
+map_symbol = true
+success_symbol = "[](fg:purple bg:green)[  ](fg:bright-white bg:green)"

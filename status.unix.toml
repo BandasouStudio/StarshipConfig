@@ -1,0 +1,6 @@
+symbol = "[](fg:purple bg:red)[  ](fg:bright-white bg:red)"
+not_executable_symbol = "[](fg:purple bg:red)[  ](fg:bright-white bg:red)"
+not_found_symbol = "[](fg:purple bg:red)[  ](fg:bright-white bg:red)"
+sigint_symbol = "[](fg:purple bg:red)[  ](fg:bright-white bg:red)"
+signal_symbol = "[](fg:purple bg:red)[  ](fg:bright-white bg:red)"
+format = "$symbol[$common_meaning$signal_name$maybe_int](fg:bright-white bg:red)"
